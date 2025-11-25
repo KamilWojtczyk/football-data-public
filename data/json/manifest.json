@@ -1,0 +1,2799 @@
+{
+  "updated_at": "2025-11-25T20:33:25Z",
+  "tabs": [
+    {
+      "name": "Goalkeeper",
+      "file": "Goalkeeper.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 29.86,
+            "p60": 29.968,
+            "p70": 30.086,
+            "p80": 30.224,
+            "p90": 30.726
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 6.62,
+            "p60": 11.491999999999997,
+            "p70": 14.824,
+            "p80": 15.076,
+            "p90": 16.476
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 149.71,
+            "p60": 225.58599999999996,
+            "p70": 281.428,
+            "p80": 297.202,
+            "p90": 310.256
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 499.32,
+            "p60": 535.3439999999999,
+            "p70": 579.154,
+            "p80": 638.5360000000001,
+            "p90": 659.45
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 102.96,
+            "p60": 104.32799999999999,
+            "p70": 107.08399999999999,
+            "p80": 112.616,
+            "p90": 115.544
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 9266.83,
+            "p60": 9389.278,
+            "p70": 9637.088,
+            "p80": 10135.622,
+            "p90": 10399.224
+          }
+        },
+        {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_long_passing",
+          "label": "Progressive Long Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "saves_quality",
+          "label": "Saves (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_per_90",
+          "label": "Interceptions per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "parries_quality",
+          "label": "Parries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "pass_completion_pct",
+          "label": "Pass Completion %",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "all_passes_quality",
+          "label": "All passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "short_passes_per_90",
+          "label": "Short passes per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "CB (L)",
+      "file": "CB_L.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 28.45,
+            "p60": 28.66,
+            "p70": 28.916,
+            "p80": 29.244,
+            "p90": 29.684
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 5.78,
+            "p60": 6.2379999999999995,
+            "p70": 6.7059999999999995,
+            "p80": 7.58,
+            "p90": 8.744000000000002
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 102.2,
+            "p60": 111.354,
+            "p70": 121.75999999999999,
+            "p80": 135.13200000000003,
+            "p90": 159.534
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 361.98,
+            "p60": 378.75399999999996,
+            "p70": 398.46799999999996,
+            "p80": 424.0200000000001,
+            "p90": 466.866
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 102.9,
+            "p60": 103.974,
+            "p70": 105.594,
+            "p80": 107.07600000000001,
+            "p90": 109.542
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 9261.09,
+            "p60": 9357.818,
+            "p70": 9503.344,
+            "p80": 9636.588,
+            "p90": 9858.428
+          }
+        },
+        {
+          "key": "headers_open_play_defending_quality",
+          "label": "Headers - open play defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_long_passing",
+          "label": "Progressive Long Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "half_space_passes_quality",
+          "label": "Half space passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "shots_blocked_quality",
+          "label": "Shots Blocked (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_passes_quality",
+          "label": "Line breaking passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "short_passes_per_90",
+          "label": "Short passes per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "CB (R)",
+      "file": "CB_R.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 28.46,
+            "p60": 28.71,
+            "p70": 28.98,
+            "p80": 29.27,
+            "p90": 29.68
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 5.72,
+            "p60": 6.15,
+            "p70": 6.64,
+            "p80": 7.32,
+            "p90": 8.285999999999998
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 100.97,
+            "p60": 109.776,
+            "p70": 118.80999999999999,
+            "p80": 130.958,
+            "p90": 149.892
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 351.73,
+            "p60": 369.17999999999995,
+            "p70": 387.572,
+            "p80": 412.98400000000004,
+            "p90": 449.044
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 101.9,
+            "p60": 103.29,
+            "p70": 104.86,
+            "p80": 106.692,
+            "p90": 109.366
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 9171.3,
+            "p60": 9296.184,
+            "p70": 9437.41,
+            "p80": 9602.32,
+            "p90": 9843.45
+          }
+        },
+        {
+          "key": "headers_open_play_defending_quality",
+          "label": "Headers - open play defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_long_passing",
+          "label": "Progressive Long Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "half_space_passes_quality",
+          "label": "Half space passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "shots_blocked_quality",
+          "label": "Shots Blocked (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_passes_quality",
+          "label": "Line breaking passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "short_passes_per_90",
+          "label": "Short passes per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "FB (L)",
+      "file": "FB_L.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 29.19,
+            "p60": 29.44,
+            "p70": 29.71,
+            "p80": 30.02,
+            "p90": 30.47
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 10.925,
+            "p60": 11.761999999999999,
+            "p70": 12.6,
+            "p80": 13.62,
+            "p90": 15.16
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 201.57,
+            "p60": 215.298,
+            "p70": 232.69799999999998,
+            "p80": 254.63200000000003,
+            "p90": 281.43099999999987
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 574.895,
+            "p60": 599.444,
+            "p70": 622.771,
+            "p80": 655.9240000000001,
+            "p90": 698.304
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 109.39500000000001,
+            "p60": 110.722,
+            "p70": 112.48899999999999,
+            "p80": 114.386,
+            "p90": 116.933
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 9845.365000000002,
+            "p60": 9965.308,
+            "p70": 10123.786999999998,
+            "p80": 10294.682,
+            "p90": 10524.082999999999
+          }
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "crosses_quality",
+          "label": "Crosses (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_carries_quality",
+          "label": "Line-breaking carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_per_90",
+          "label": "Interceptions per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "crosses_per_90",
+          "label": "Crosses per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "FB (R)",
+      "file": "FB_R.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 29.34,
+            "p60": 29.56,
+            "p70": 29.82,
+            "p80": 30.14,
+            "p90": 30.62
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 11.4,
+            "p60": 12.208,
+            "p70": 12.981,
+            "p80": 14.008000000000001,
+            "p90": 15.534
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 208.32999999999998,
+            "p60": 223.628,
+            "p70": 242.07299999999998,
+            "p80": 260.264,
+            "p90": 292.66400000000004
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 576.845,
+            "p60": 602.54,
+            "p70": 629.632,
+            "p80": 660.4140000000001,
+            "p90": 709.143
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 109.745,
+            "p60": 111.214,
+            "p70": 112.90100000000001,
+            "p80": 114.624,
+            "p90": 117.37100000000001
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 9877.185,
+            "p60": 10009.4,
+            "p70": 10161.189999999999,
+            "p80": 10316.288,
+            "p90": 10563.094
+          }
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "crosses_quality",
+          "label": "Crosses (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_carries_quality",
+          "label": "Line-breaking carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_per_90",
+          "label": "Interceptions per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "crosses_per_90",
+          "label": "Crosses per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "#6",
+      "file": "6.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 27.23,
+            "p60": 27.49,
+            "p70": 27.74,
+            "p80": 28.046000000000003,
+            "p90": 28.48
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 5.71,
+            "p60": 6.26,
+            "p70": 6.84,
+            "p80": 7.586000000000001,
+            "p90": 9.158
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 103.04,
+            "p60": 111.94,
+            "p70": 123.224,
+            "p80": 139.56000000000003,
+            "p90": 163.10999999999999
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 506.58,
+            "p60": 530.06,
+            "p70": 565.504,
+            "p80": 600.388,
+            "p90": 653.5139999999999
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 116.35,
+            "p60": 118.04400000000001,
+            "p70": 120.088,
+            "p80": 122.14,
+            "p90": 125.14
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 10471.53,
+            "p60": 10623.832,
+            "p70": 10807.868,
+            "p80": 10992.8,
+            "p90": 11262.524
+          }
+        },
+        {
+          "key": "headers_open_play_defending_quality",
+          "label": "Headers - open play defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "passes_before_progression_quality",
+          "label": "Passes before progression (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_per_90",
+          "label": "Forward passes received per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "second_balls_won_quality",
+          "label": "Second balls won (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "through_balls_quality",
+          "label": "Through balls (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_passes_quality",
+          "label": "Line breaking passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "switching_play_quality",
+          "label": "Switching play (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "all_passes_per_90",
+          "label": "All passes per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "#8 (CM)",
+      "file": "8_CM.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 27.43,
+            "p60": 27.66,
+            "p70": 27.94,
+            "p80": 28.28,
+            "p90": 28.747
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 6.615,
+            "p60": 7.307999999999999,
+            "p70": 8.171,
+            "p80": 9.342000000000002,
+            "p90": 10.85
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 117.675,
+            "p60": 130.682,
+            "p70": 147.49099999999999,
+            "p80": 166.288,
+            "p90": 194.988
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 550.8,
+            "p60": 586.092,
+            "p70": 624.4169999999999,
+            "p80": 669.452,
+            "p90": 734.048
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 117.16,
+            "p60": 118.798,
+            "p70": 120.58,
+            "p80": 122.704,
+            "p90": 125.705
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 10544.42,
+            "p60": 10691.66,
+            "p70": 10852.169,
+            "p80": 11043.65,
+            "p90": 11313.436
+          }
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_goals_shots_open_play",
+          "label": "Expected Goals (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_carries_quality",
+          "label": "Line-breaking carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "goal_difference_added",
+          "label": "Goal difference added",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_box_per_90",
+          "label": "Touches in box per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "key_passes_quality",
+          "label": "Key passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "through_balls_quality",
+          "label": "Through balls (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "#10 (AM)",
+      "file": "10_AM.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 27.94,
+            "p60": 28.19,
+            "p70": 28.47,
+            "p80": 28.776000000000003,
+            "p90": 29.22
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 8.81,
+            "p60": 9.63,
+            "p70": 10.652000000000001,
+            "p80": 11.732000000000003,
+            "p90": 13.363999999999999
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 154.25,
+            "p60": 168.926,
+            "p70": 185.42999999999998,
+            "p80": 207.75200000000004,
+            "p90": 239.25599999999997
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 607.39,
+            "p60": 643.3439999999999,
+            "p70": 676.016,
+            "p80": 714.436,
+            "p90": 771.912
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 116.57,
+            "p60": 118.536,
+            "p70": 120.56,
+            "p80": 123.134,
+            "p90": 125.774
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 10491.26,
+            "p60": 10668.1,
+            "p70": 10850.475999999999,
+            "p80": 11082.000000000002,
+            "p90": 11319.72
+          }
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_goals_shots_open_play",
+          "label": "Expected Goals (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_carries_quality",
+          "label": "Line-breaking carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "goal_difference_added",
+          "label": "Goal difference added",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_box_per_90",
+          "label": "Touches in box per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "key_passes_quality",
+          "label": "Key passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "through_balls_quality",
+          "label": "Through balls (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "RW",
+      "file": "RW.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 29.34,
+            "p60": 29.637999999999998,
+            "p70": 29.99,
+            "p80": 30.394000000000002,
+            "p90": 30.84
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 12.67,
+            "p60": 13.651999999999997,
+            "p70": 14.64,
+            "p80": 15.71,
+            "p90": 17.392
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 229.45,
+            "p60": 253.716,
+            "p70": 272.26,
+            "p80": 295.536,
+            "p90": 330.428
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 642.91,
+            "p60": 670.462,
+            "p70": 698.176,
+            "p80": 734.806,
+            "p90": 787.446
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 112.95,
+            "p60": 114.69,
+            "p70": 116.322,
+            "p80": 118.374,
+            "p90": 121.6
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 10165.78,
+            "p60": 10322.323999999999,
+            "p70": 10469.302,
+            "p80": 10653.568000000001,
+            "p90": 10944.116
+          }
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_goals_shots_open_play",
+          "label": "Expected Goals (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "carries_followed_by_pass_quality",
+          "label": "Carries followed by pass (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_plus",
+          "label": "Dribbles Plus",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "finishing_shots_open_play",
+          "label": "Finishing (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "LW",
+      "file": "LW.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 29.41,
+            "p60": 29.69,
+            "p70": 29.98,
+            "p80": 30.36,
+            "p90": 30.963
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 12.684999999999999,
+            "p60": 13.533999999999999,
+            "p70": 14.63,
+            "p80": 15.556000000000001,
+            "p90": 17.272
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 230.38,
+            "p60": 248.56799999999998,
+            "p70": 270.02,
+            "p80": 294.77000000000004,
+            "p90": 327.42299999999994
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 629.1600000000001,
+            "p60": 657.448,
+            "p70": 686.514,
+            "p80": 719.4000000000001,
+            "p90": 774.27
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 111.97999999999999,
+            "p60": 113.78,
+            "p70": 115.45899999999999,
+            "p80": 117.446,
+            "p90": 120.723
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 10078.099999999999,
+            "p60": 10240.19,
+            "p70": 10391.41,
+            "p80": 10570.256,
+            "p90": 10865.166
+          }
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_goals_shots_open_play",
+          "label": "Expected Goals (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "carries_followed_by_pass_quality",
+          "label": "Carries followed by pass (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_plus",
+          "label": "Dribbles Plus",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "finishing_shots_open_play",
+          "label": "Finishing (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    },
+    {
+      "name": "#9",
+      "file": "9.json",
+      "columns": [
+        {
+          "key": "player_name",
+          "label": "Original Player Name",
+          "type": "string",
+          "banding": null,
+          "sticky": true,
+          "link_key": "tm_url"
+        },
+        {
+          "key": "age",
+          "label": "Age",
+          "type": "int",
+          "banding": null
+        },
+        {
+          "key": "foot",
+          "label": "Foot",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "overall_avg_last_4",
+          "label": "Overall Avg (last 4)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025_26",
+          "label": "2025-26",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2025",
+          "label": "2025",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024_25",
+          "label": "2024-25",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2024",
+          "label": "2024",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023_24",
+          "label": "2023-24",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "2023",
+          "label": "2023",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "max_speed",
+          "label": "Max Speed",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 29.0,
+            "p60": 29.27,
+            "p70": 29.64,
+            "p80": 30.01,
+            "p90": 30.53
+          }
+        },
+        {
+          "key": "sprints_90",
+          "label": "Sprints / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 11.274999999999999,
+            "p60": 12.333999999999998,
+            "p70": 13.36,
+            "p80": 14.69,
+            "p90": 16.43
+          }
+        },
+        {
+          "key": "sprint_dis_90",
+          "label": "Sprint dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 193.76,
+            "p60": 212.14,
+            "p70": 231.218,
+            "p80": 257.96000000000004,
+            "p90": 292.355
+          }
+        },
+        {
+          "key": "hir_dis_90",
+          "label": "HIR dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 575.2850000000001,
+            "p60": 601.0840000000001,
+            "p70": 629.61,
+            "p80": 664.868,
+            "p90": 724.662
+          }
+        },
+        {
+          "key": "meter_min",
+          "label": "Meter / Min",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 109.21,
+            "p60": 111.2,
+            "p70": 113.11,
+            "p80": 115.394,
+            "p90": 118.54
+          }
+        },
+        {
+          "key": "total_dis_90",
+          "label": "Total dis / 90",
+          "type": "number",
+          "banding": "percentile",
+          "percentiles": {
+            "p50": 9828.744999999999,
+            "p60": 10008.042000000001,
+            "p70": 10179.913999999999,
+            "p80": 10385.358,
+            "p90": 10668.61
+          }
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "finishing_headers_open_play",
+          "label": "Finishing (headers - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_box_quality",
+          "label": "Touches in box (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "finishing_shots_open_play",
+          "label": "Finishing (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_box_per_90",
+          "label": "Touches in box per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_goals_combined",
+          "label": "Expected Goals Combined",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "finishing_combined",
+          "label": "Finishing Combined",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "market_value",
+          "label": "Market Value",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "cost_per_point_k",
+          "label": "Cost per point (k€)",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "value_for_money",
+          "label": "Value for Money",
+          "type": "number",
+          "banding": null
+        },
+        {
+          "key": "tm_url",
+          "label": "tm_url",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "contract_expires",
+          "label": "contract_expires",
+          "type": "date",
+          "banding": null
+        }
+      ]
+    }
+  ]
+}
