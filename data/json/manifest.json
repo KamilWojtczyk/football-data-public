@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-11-29T16:33:27Z",
+  "updated_at": "2025-12-01T12:19:58Z",
   "tabs": [
     {
       "name": "Goalkeeper",
@@ -152,44 +152,20 @@
           }
         },
         {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "short_passes_per_90",
           "label": "Short passes per 90",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "all_passes_quality",
-          "label": "All passes (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "adjusted_pass_accuracy",
-          "label": "Adjusted Pass Accuracy",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "parries_quality",
-          "label": "Parries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "pass_completion_pct",
-          "label": "Pass Completion %",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "saves_quality",
-          "label": "Saves (Quality)",
+          "key": "interceptions_per_90",
+          "label": "Interceptions per 90",
           "type": "int",
           "banding": "fixed"
         },
@@ -200,14 +176,38 @@
           "banding": "fixed"
         },
         {
-          "key": "carries_quality",
-          "label": "Carries (Quality)",
+          "key": "saves_quality",
+          "label": "Saves (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "interceptions_per_90",
-          "label": "Interceptions per 90",
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "pass_completion_pct",
+          "label": "Pass Completion %",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "parries_quality",
+          "label": "Parries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "all_passes_quality",
+          "label": "All passes (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -239,6 +239,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -394,44 +424,14 @@
           }
         },
         {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "short_passes_per_90",
           "label": "Short passes per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "tackles_quality",
-          "label": "Tackles (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "adjusted_pass_accuracy",
-          "label": "Adjusted Pass Accuracy",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "line_breaking_passes_quality",
-          "label": "Line breaking passes (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "headers_open_play_defending_quality",
-          "label": "Headers - open play defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -442,8 +442,26 @@
           "banding": "fixed"
         },
         {
-          "key": "1v1_defending_quality",
-          "label": "1v1 defending (Quality)",
+          "key": "shots_blocked_quality",
+          "label": "Shots Blocked (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_passes_quality",
+          "label": "Line breaking passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "headers_open_play_defending_quality",
+          "label": "Headers - open play defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -454,14 +472,26 @@
           "banding": "fixed"
         },
         {
-          "key": "carries_quality",
-          "label": "Carries (Quality)",
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "shots_blocked_quality",
-          "label": "Shots Blocked (Quality)",
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
           "type": "int",
           "banding": "fixed"
         },
@@ -493,6 +523,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -648,44 +708,14 @@
           }
         },
         {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "short_passes_per_90",
           "label": "Short passes per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "tackles_quality",
-          "label": "Tackles (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "adjusted_pass_accuracy",
-          "label": "Adjusted Pass Accuracy",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "line_breaking_passes_quality",
-          "label": "Line breaking passes (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "headers_open_play_defending_quality",
-          "label": "Headers - open play defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -696,8 +726,26 @@
           "banding": "fixed"
         },
         {
-          "key": "1v1_defending_quality",
-          "label": "1v1 defending (Quality)",
+          "key": "shots_blocked_quality",
+          "label": "Shots Blocked (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_passes_quality",
+          "label": "Line breaking passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "headers_open_play_defending_quality",
+          "label": "Headers - open play defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -708,14 +756,26 @@
           "banding": "fixed"
         },
         {
-          "key": "carries_quality",
-          "label": "Carries (Quality)",
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "shots_blocked_quality",
-          "label": "Shots Blocked (Quality)",
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
           "type": "int",
           "banding": "fixed"
         },
@@ -747,6 +807,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -908,8 +998,8 @@
           "banding": "fixed"
         },
         {
-          "key": "tackles_quality",
-          "label": "Tackles (Quality)",
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -920,32 +1010,8 @@
           "banding": "fixed"
         },
         {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "1v1_defending_quality",
-          "label": "1v1 defending (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "crosses_quality",
-          "label": "Crosses (Quality)",
+          "key": "interceptions_per_90",
+          "label": "Interceptions per 90",
           "type": "int",
           "banding": "fixed"
         },
@@ -956,20 +1022,44 @@
           "banding": "fixed"
         },
         {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "forward_passes_received_quality",
           "label": "Forward passes received (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "expected_assists_key_passes",
-          "label": "Expected Assists (key passes)",
+          "key": "crosses_quality",
+          "label": "Crosses (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "interceptions_per_90",
-          "label": "Interceptions per 90",
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1001,6 +1091,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -1162,8 +1282,8 @@
           "banding": "fixed"
         },
         {
-          "key": "tackles_quality",
-          "label": "Tackles (Quality)",
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1174,32 +1294,8 @@
           "banding": "fixed"
         },
         {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "1v1_defending_quality",
-          "label": "1v1 defending (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "crosses_quality",
-          "label": "Crosses (Quality)",
+          "key": "interceptions_per_90",
+          "label": "Interceptions per 90",
           "type": "int",
           "banding": "fixed"
         },
@@ -1210,20 +1306,44 @@
           "banding": "fixed"
         },
         {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "forward_passes_received_quality",
           "label": "Forward passes received (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "expected_assists_key_passes",
-          "label": "Expected Assists (key passes)",
+          "key": "crosses_quality",
+          "label": "Crosses (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "interceptions_per_90",
-          "label": "Interceptions per 90",
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1255,6 +1375,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -1410,26 +1560,20 @@
           }
         },
         {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "passes_before_progression_quality",
           "label": "Passes before progression (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "adjusted_pass_accuracy",
-          "label": "Adjusted Pass Accuracy",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "through_balls_quality",
-          "label": "Through balls (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
+          "key": "line_breaking_passes_quality",
+          "label": "Line breaking passes (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1440,8 +1584,8 @@
           "banding": "fixed"
         },
         {
-          "key": "line_breaking_passes_quality",
-          "label": "Line breaking passes (Quality)",
+          "key": "all_passes_per_90",
+          "label": "All passes per 90",
           "type": "int",
           "banding": "fixed"
         },
@@ -1458,8 +1602,20 @@
           "banding": "fixed"
         },
         {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "second_balls_won_quality",
+          "label": "Second balls won (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "through_balls_quality",
+          "label": "Through balls (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1470,20 +1626,14 @@
           "banding": "fixed"
         },
         {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "switching_play_quality",
           "label": "Switching play (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "all_passes_per_90",
-          "label": "All passes per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "second_balls_won_quality",
-          "label": "Second balls won (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1515,6 +1665,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -1676,6 +1856,42 @@
           "banding": "fixed"
         },
         {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_goals_shots_open_play",
+          "label": "Expected Goals (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "touches_in_box_per_90",
           "label": "Touches in box per 90",
           "type": "int",
@@ -1688,56 +1904,8 @@
           "banding": "fixed"
         },
         {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "expected_goals_shots_open_play",
-          "label": "Expected Goals (shots - open play)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "touches_in_final_third_quality",
-          "label": "Touches in final third (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "high_regains_quality",
-          "label": "High regains (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "key_passes_quality",
-          "label": "Key passes (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "goal_difference_added",
-          "label": "Goal difference added",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "forward_passes_received_quality",
-          "label": "Forward passes received (Quality)",
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1748,8 +1916,20 @@
           "banding": "fixed"
         },
         {
-          "key": "expected_assists_key_passes",
-          "label": "Expected Assists (key passes)",
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "goal_difference_added",
+          "label": "Goal difference added",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "key_passes_quality",
+          "label": "Key passes (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1781,6 +1961,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -1942,6 +2152,42 @@
           "banding": "fixed"
         },
         {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_goals_shots_open_play",
+          "label": "Expected Goals (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "touches_in_box_per_90",
           "label": "Touches in box per 90",
           "type": "int",
@@ -1954,56 +2200,8 @@
           "banding": "fixed"
         },
         {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "expected_goals_shots_open_play",
-          "label": "Expected Goals (shots - open play)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "touches_in_final_third_quality",
-          "label": "Touches in final third (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "high_regains_quality",
-          "label": "High regains (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "key_passes_quality",
-          "label": "Key passes (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "goal_difference_added",
-          "label": "Goal difference added",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "forward_passes_received_quality",
-          "label": "Forward passes received (Quality)",
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2014,8 +2212,20 @@
           "banding": "fixed"
         },
         {
-          "key": "expected_assists_key_passes",
-          "label": "Expected Assists (key passes)",
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "goal_difference_added",
+          "label": "Goal difference added",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "key_passes_quality",
+          "label": "Key passes (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2047,6 +2257,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -2202,14 +2442,8 @@
           }
         },
         {
-          "key": "dribbles_plus",
-          "label": "Dribbles Plus",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "finishing_shots_open_play",
-          "label": "Finishing (shots - open play)",
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2220,20 +2454,14 @@
           "banding": "fixed"
         },
         {
-          "key": "expected_goals_shots_open_play",
-          "label": "Expected Goals (shots - open play)",
+          "key": "finishing_shots_open_play",
+          "label": "Finishing (shots - open play)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "touches_in_final_third_quality",
-          "label": "Touches in final third (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "carries_followed_by_pass_quality",
-          "label": "Carries followed by pass (Quality)",
+          "key": "dribbles_plus",
+          "label": "Dribbles Plus",
           "type": "int",
           "banding": "fixed"
         },
@@ -2244,8 +2472,8 @@
           "banding": "fixed"
         },
         {
-          "key": "carries_quality",
-          "label": "Carries (Quality)",
+          "key": "expected_goals_shots_open_play",
+          "label": "Expected Goals (shots - open play)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2256,14 +2484,26 @@
           "banding": "fixed"
         },
         {
-          "key": "dribbles_quality",
-          "label": "Dribbles (Quality)",
+          "key": "carries_followed_by_pass_quality",
+          "label": "Carries followed by pass (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
           "key": "expected_assists_key_passes",
           "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2295,6 +2535,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -2450,14 +2720,8 @@
           }
         },
         {
-          "key": "dribbles_plus",
-          "label": "Dribbles Plus",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "finishing_shots_open_play",
-          "label": "Finishing (shots - open play)",
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2468,20 +2732,14 @@
           "banding": "fixed"
         },
         {
-          "key": "expected_goals_shots_open_play",
-          "label": "Expected Goals (shots - open play)",
+          "key": "finishing_shots_open_play",
+          "label": "Finishing (shots - open play)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "touches_in_final_third_quality",
-          "label": "Touches in final third (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "carries_followed_by_pass_quality",
-          "label": "Carries followed by pass (Quality)",
+          "key": "dribbles_plus",
+          "label": "Dribbles Plus",
           "type": "int",
           "banding": "fixed"
         },
@@ -2492,8 +2750,8 @@
           "banding": "fixed"
         },
         {
-          "key": "carries_quality",
-          "label": "Carries (Quality)",
+          "key": "expected_goals_shots_open_play",
+          "label": "Expected Goals (shots - open play)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2504,14 +2762,26 @@
           "banding": "fixed"
         },
         {
-          "key": "dribbles_quality",
-          "label": "Dribbles (Quality)",
+          "key": "carries_followed_by_pass_quality",
+          "label": "Carries followed by pass (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
           "key": "expected_assists_key_passes",
           "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2543,6 +2813,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
@@ -2698,8 +2998,8 @@
           }
         },
         {
-          "key": "finishing_combined",
-          "label": "Finishing Combined",
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2710,8 +3010,14 @@
           "banding": "fixed"
         },
         {
-          "key": "touches_in_box_per_90",
-          "label": "Touches in box per 90",
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "finishing_combined",
+          "label": "Finishing Combined",
           "type": "int",
           "banding": "fixed"
         },
@@ -2722,32 +3028,26 @@
           "banding": "fixed"
         },
         {
-          "key": "touches_in_box_quality",
-          "label": "Touches in box (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "high_regains_quality",
-          "label": "High regains (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
           "key": "finishing_headers_open_play",
           "label": "Finishing (headers - open play)",
           "type": "int",
           "banding": "fixed"
         },
         {
+          "key": "touches_in_box_quality",
+          "label": "Touches in box (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "forward_passes_received_quality",
           "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_box_per_90",
+          "label": "Touches in box per 90",
           "type": "int",
           "banding": "fixed"
         },
@@ -2791,6 +3091,36 @@
           "key": "contract_expires",
           "label": "contract_expires",
           "type": "date",
+          "banding": null
+        },
+        {
+          "key": "club",
+          "label": "Club",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "league",
+          "label": "League",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "position",
+          "label": "Position",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "nationality",
+          "label": "Nationality",
+          "type": "string",
+          "banding": null
+        },
+        {
+          "key": "image_url",
+          "label": "image_url",
+          "type": "string",
           "banding": null
         }
       ]
