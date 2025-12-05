@@ -1,7 +1,7 @@
 {
 "tournament_key":"EURO_2024",
 "tournament_slug":"euro-2024",
-"generated_at_utc":"2025-12-05T17:29:57.079827+00:00",
+"generated_at_utc":"2025-12-05T17:42:13.985859+00:00",
 "sources":{
 "team_match_stats":"sofascore-scraper\\files\\team_match_stats_EURO_2024.csv",
 "team_totals":"sofascore-scraper\\files\\team_totals_EURO_2024.csv",
@@ -17,10 +17,10 @@
 "stats_summary":{
 "total_teams":24,
 "total_matches":46,
-"total_goals":0,
-"avg_goals_per_match":0.0,
-"avg_yellow_cards":0.0,
-"avg_red_cards":0.0
+"total_goals":109,
+"avg_goals_per_match":2.37,
+"avg_yellow_cards":4.22,
+"avg_red_cards":0.09
 },
 "schema":"flat-records-per-table",
 "round_decimals":2
