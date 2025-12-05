@@ -1,7 +1,7 @@
 {
 "tournament_key":"World_Cup_Qual_UEFA_2026",
 "tournament_slug":"world-cup-qual-uefa-2026",
-"generated_at_utc":"2025-12-05T14:20:48.264291+00:00",
+"generated_at_utc":"2025-12-05T17:30:05.154882+00:00",
 "sources":{
 "team_match_stats":"sofascore-scraper\\files\\team_match_stats_World_Cup_Qual_UEFA_2026.csv",
 "team_totals":"sofascore-scraper\\files\\team_totals_World_Cup_Qual_UEFA_2026.csv",
@@ -13,6 +13,14 @@
 "team_totals":54,
 "player_totals":2224,
 "shots":4849
+},
+"stats_summary":{
+"total_teams":54,
+"total_matches":192,
+"total_goals":0,
+"avg_goals_per_match":0.0,
+"avg_yellow_cards":0.0,
+"avg_red_cards":0.0
 },
 "schema":"flat-records-per-table",
 "round_decimals":2
