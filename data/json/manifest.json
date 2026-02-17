@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-15T18:52:59Z",
+  "updated_at": "2026-02-17T14:48:41Z",
   "tabs": [
     {
       "name": "Goalkeeper",
@@ -115,11 +115,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 29.93,
-            "p60": 30.0,
-            "p70": 30.02,
-            "p80": 30.04,
-            "p90": 30.45
+            "p50": 29.73,
+            "p60": 29.808,
+            "p70": 29.965999999999998,
+            "p80": 30.284000000000002,
+            "p90": 30.526
           }
         },
         {
@@ -128,11 +128,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 10.305,
-            "p60": 13.99,
-            "p70": 14.365,
-            "p80": 14.74,
-            "p90": 16.18
+            "p50": 6.16,
+            "p60": 11.307999999999996,
+            "p70": 14.814,
+            "p80": 15.036,
+            "p90": 15.618
           }
         },
         {
@@ -141,11 +141,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 195.91500000000002,
-            "p60": 260.06,
-            "p70": 268.115,
-            "p80": 276.17,
-            "p90": 284.03
+            "p50": 149.71,
+            "p60": 225.58599999999996,
+            "p70": 276.18600000000004,
+            "p80": 276.234,
+            "p90": 283.04200000000003
           }
         },
         {
@@ -154,11 +154,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 456.54999999999995,
-            "p60": 577.64,
-            "p70": 617.985,
-            "p80": 658.33,
-            "p90": 664.315
+            "p50": 499.32,
+            "p60": 546.654,
+            "p70": 594.2339999999999,
+            "p80": 642.306,
+            "p90": 675.114
           }
         },
         {
@@ -167,11 +167,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 102.35,
-            "p60": 105.64,
-            "p70": 110.05,
-            "p80": 114.46,
-            "p90": 116.945
+            "p50": 105.04,
+            "p60": 105.46,
+            "p70": 107.484,
+            "p80": 112.716,
+            "p90": 116.624
           }
         },
         {
@@ -180,16 +180,40 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 9211.494999999999,
-            "p60": 9507.49,
-            "p70": 9904.645,
-            "p80": 10301.8,
-            "p90": 10524.95
+            "p50": 9453.5,
+            "p60": 9491.648,
+            "p70": 9674.024,
+            "p80": 10144.856,
+            "p90": 10496.516
           }
+        },
+        {
+          "key": "interceptions_per_90",
+          "label": "Interceptions per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_long_passing",
+          "label": "Progressive Long Passing",
+          "type": "int",
+          "banding": "fixed"
         },
         {
           "key": "saves_quality",
           "label": "Saves (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "pass_completion_pct",
+          "label": "Pass Completion %",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
           "type": "int",
           "banding": "fixed"
         },
@@ -206,8 +230,8 @@
           "banding": "fixed"
         },
         {
-          "key": "pass_completion_pct",
-          "label": "Pass Completion %",
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
           "type": "int",
           "banding": "fixed"
         },
@@ -220,30 +244,6 @@
         {
           "key": "short_passes_per_90",
           "label": "Short passes per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_per_90",
-          "label": "Interceptions per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "progressive_long_passing",
-          "label": "Progressive Long Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "adjusted_pass_accuracy",
-          "label": "Adjusted Pass Accuracy",
           "type": "int",
           "banding": "fixed"
         },
@@ -438,11 +438,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 28.48,
-            "p60": 28.7,
-            "p70": 28.95,
-            "p80": 29.264000000000003,
-            "p90": 29.66
+            "p50": 28.52,
+            "p60": 28.71,
+            "p70": 28.97,
+            "p80": 29.29,
+            "p90": 29.76
           }
         },
         {
@@ -451,11 +451,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 5.81,
-            "p60": 6.19,
-            "p70": 6.731999999999998,
-            "p80": 7.58,
-            "p90": 8.642000000000001
+            "p50": 5.92,
+            "p60": 6.303999999999999,
+            "p70": 6.95,
+            "p80": 7.722,
+            "p90": 8.93
           }
         },
         {
@@ -464,11 +464,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 103.76,
-            "p60": 112.198,
-            "p70": 122.362,
-            "p80": 136.508,
-            "p90": 157.104
+            "p50": 105.9,
+            "p60": 114.948,
+            "p70": 124.806,
+            "p80": 140.126,
+            "p90": 160.32600000000002
           }
         },
         {
@@ -477,11 +477,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 362.29,
-            "p60": 377.932,
-            "p70": 398.816,
-            "p80": 425.94,
-            "p90": 463.148
+            "p50": 366.66,
+            "p60": 386.512,
+            "p70": 406.376,
+            "p80": 430.24600000000004,
+            "p90": 473.308
           }
         },
         {
@@ -490,11 +490,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 102.42,
-            "p60": 103.7,
-            "p70": 105.316,
-            "p80": 107.204,
-            "p90": 109.806
+            "p50": 102.92,
+            "p60": 104.534,
+            "p70": 106.146,
+            "p80": 107.74,
+            "p90": 110.004
           }
         },
         {
@@ -503,52 +503,16 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 9217.4,
-            "p60": 9333.29,
-            "p70": 9478.302,
-            "p80": 9648.17,
-            "p90": 9882.36
+            "p50": 9262.6,
+            "p60": 9408.274,
+            "p70": 9553.126,
+            "p80": 9696.484,
+            "p90": 9900.548
           }
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "carries_quality",
-          "label": "Carries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "short_passes_per_90",
-          "label": "Short passes per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "shots_blocked_quality",
-          "label": "Shots Blocked (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
         },
         {
           "key": "progressive_long_passing",
           "label": "Progressive Long Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "headers_open_play_defending_quality",
-          "label": "Headers - open play defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -559,14 +523,8 @@
           "banding": "fixed"
         },
         {
-          "key": "line_breaking_passes_quality",
-          "label": "Line breaking passes (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "1v1_defending_quality",
-          "label": "1v1 defending (Quality)",
+          "key": "headers_open_play_defending_quality",
+          "label": "Headers - open play defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -577,8 +535,50 @@
           "banding": "fixed"
         },
         {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_passes_quality",
+          "label": "Line breaking passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "half_space_passes_quality",
           "label": "Half space passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "shots_blocked_quality",
+          "label": "Shots Blocked (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "short_passes_per_90",
+          "label": "Short passes per 90",
           "type": "int",
           "banding": "fixed"
         },
@@ -773,11 +773,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 28.5,
-            "p60": 28.75,
-            "p70": 28.99,
-            "p80": 29.3,
-            "p90": 29.72
+            "p50": 28.53,
+            "p60": 28.77,
+            "p70": 29.04,
+            "p80": 29.33,
+            "p90": 29.768
           }
         },
         {
@@ -786,11 +786,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 5.74,
-            "p60": 6.2,
-            "p70": 6.66,
-            "p80": 7.32,
-            "p90": 8.34
+            "p50": 5.86,
+            "p60": 6.31,
+            "p70": 6.81,
+            "p80": 7.536000000000001,
+            "p90": 8.57
           }
         },
         {
@@ -799,11 +799,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 102.69,
-            "p60": 110.85,
-            "p70": 119.47999999999998,
-            "p80": 131.336,
-            "p90": 149.782
+            "p50": 104.82,
+            "p60": 113.49199999999999,
+            "p70": 122.12,
+            "p80": 134.496,
+            "p90": 155.048
           }
         },
         {
@@ -812,11 +812,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 351.2,
-            "p60": 368.912,
-            "p70": 387.968,
-            "p80": 412.47200000000004,
-            "p90": 450.156
+            "p50": 359.16,
+            "p60": 376.23,
+            "p70": 395.258,
+            "p80": 418.50600000000003,
+            "p90": 456.4900000000001
           }
         },
         {
@@ -825,11 +825,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 101.73,
-            "p60": 103.24799999999999,
-            "p70": 104.78,
-            "p80": 106.77600000000001,
-            "p90": 109.526
+            "p50": 102.41,
+            "p60": 103.9,
+            "p70": 105.354,
+            "p80": 107.346,
+            "p90": 109.828
           }
         },
         {
@@ -838,52 +838,16 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 9155.8,
-            "p60": 9292.27,
-            "p70": 9430.808,
-            "p80": 9609.948,
-            "p90": 9856.923999999999
+            "p50": 9216.66,
+            "p60": 9350.98,
+            "p70": 9482.238000000001,
+            "p80": 9661.35,
+            "p90": 9884.422
           }
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "carries_quality",
-          "label": "Carries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "short_passes_per_90",
-          "label": "Short passes per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "shots_blocked_quality",
-          "label": "Shots Blocked (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
-          "type": "int",
-          "banding": "fixed"
         },
         {
           "key": "progressive_long_passing",
           "label": "Progressive Long Passing",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "headers_open_play_defending_quality",
-          "label": "Headers - open play defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -894,14 +858,8 @@
           "banding": "fixed"
         },
         {
-          "key": "line_breaking_passes_quality",
-          "label": "Line breaking passes (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "1v1_defending_quality",
-          "label": "1v1 defending (Quality)",
+          "key": "headers_open_play_defending_quality",
+          "label": "Headers - open play defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -912,8 +870,50 @@
           "banding": "fixed"
         },
         {
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_passes_quality",
+          "label": "Line breaking passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "half_space_passes_quality",
           "label": "Half space passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "shots_blocked_quality",
+          "label": "Shots Blocked (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "short_passes_per_90",
+          "label": "Short passes per 90",
           "type": "int",
           "banding": "fixed"
         },
@@ -1108,11 +1108,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 29.2,
-            "p60": 29.43,
-            "p70": 29.69,
-            "p80": 30.03,
-            "p90": 30.46
+            "p50": 29.25,
+            "p60": 29.49,
+            "p70": 29.75,
+            "p80": 30.07,
+            "p90": 30.52
           }
         },
         {
@@ -1121,11 +1121,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 10.9,
-            "p60": 11.74,
-            "p70": 12.66,
-            "p80": 13.7,
-            "p90": 15.06
+            "p50": 11.18,
+            "p60": 12.05,
+            "p70": 12.95,
+            "p80": 14.01,
+            "p90": 15.42
           }
         },
         {
@@ -1134,11 +1134,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 199.99,
-            "p60": 215.012,
-            "p70": 233.66,
-            "p80": 254.57200000000003,
-            "p90": 283.526
+            "p50": 203.34,
+            "p60": 220.82,
+            "p70": 239.8,
+            "p80": 261.5,
+            "p90": 292.48
           }
         },
         {
@@ -1147,11 +1147,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 570.86,
-            "p60": 595.644,
-            "p70": 622.788,
-            "p80": 655.12,
-            "p90": 701.64
+            "p50": 579.31,
+            "p60": 601.77,
+            "p70": 632.35,
+            "p80": 667.4,
+            "p90": 713.73
           }
         },
         {
@@ -1160,11 +1160,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 109.11,
-            "p60": 110.526,
-            "p70": 112.14,
-            "p80": 113.94,
-            "p90": 116.574
+            "p50": 109.65,
+            "p60": 111.08,
+            "p70": 112.82,
+            "p80": 114.61,
+            "p90": 117.04
           }
         },
         {
@@ -1173,28 +1173,40 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 9819.84,
-            "p60": 9947.164,
-            "p70": 10092.528,
-            "p80": 10254.286,
-            "p90": 10491.498
+            "p50": 9868.71,
+            "p60": 9997.06,
+            "p70": 10154.14,
+            "p80": 10314.52,
+            "p90": 10533.82
           }
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_per_90",
+          "label": "Interceptions per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_carries_quality",
+          "label": "Line-breaking carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
         },
         {
           "key": "crosses_per_90",
           "label": "Crosses per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "expected_assists_key_passes",
-          "label": "Expected Assists (key passes)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1205,14 +1217,20 @@
           "banding": "fixed"
         },
         {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "interceptions_per_90",
-          "label": "Interceptions per 90",
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1229,26 +1247,8 @@
           "banding": "fixed"
         },
         {
-          "key": "tackles_quality",
-          "label": "Tackles (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "line_breaking_carries_quality",
-          "label": "Line-breaking carries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "1v1_defending_quality",
-          "label": "1v1 defending (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "forward_passes_received_quality",
-          "label": "Forward passes received (Quality)",
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1443,10 +1443,10 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 29.32,
-            "p60": 29.567999999999998,
-            "p70": 29.84,
-            "p80": 30.17,
+            "p50": 29.36,
+            "p60": 29.62,
+            "p70": 29.91,
+            "p80": 30.22,
             "p90": 30.6
           }
         },
@@ -1456,11 +1456,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 11.48,
-            "p60": 12.18,
-            "p70": 12.98,
-            "p80": 14.06,
-            "p90": 15.512
+            "p50": 11.64,
+            "p60": 12.384,
+            "p70": 13.163,
+            "p80": 14.182,
+            "p90": 15.74
           }
         },
         {
@@ -1469,11 +1469,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 209.8,
-            "p60": 224.446,
-            "p70": 239.932,
-            "p80": 261.08,
-            "p90": 295.062
+            "p50": 213.72,
+            "p60": 228.48399999999998,
+            "p70": 245.68399999999997,
+            "p80": 263.79200000000003,
+            "p90": 297.509
           }
         },
         {
@@ -1482,11 +1482,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 579.31,
-            "p60": 606.432,
-            "p70": 632.328,
-            "p80": 662.64,
-            "p90": 709.572
+            "p50": 586.235,
+            "p60": 612.12,
+            "p70": 641.034,
+            "p80": 675.0519999999999,
+            "p90": 716.928
           }
         },
         {
@@ -1495,11 +1495,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 109.46,
-            "p60": 110.988,
-            "p70": 112.7,
-            "p80": 114.46,
-            "p90": 116.972
+            "p50": 110.12,
+            "p60": 111.66,
+            "p70": 113.153,
+            "p80": 114.872,
+            "p90": 117.65700000000001
           }
         },
         {
@@ -1508,28 +1508,40 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 9851.13,
-            "p60": 9988.884,
-            "p70": 10143.366,
-            "p80": 10301.289999999999,
-            "p90": 10527.622
+            "p50": 9910.505,
+            "p60": 10049.714,
+            "p70": 10183.666000000001,
+            "p80": 10338.65,
+            "p90": 10589.299
           }
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_per_90",
+          "label": "Interceptions per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_carries_quality",
+          "label": "Line-breaking carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "tackles_quality",
+          "label": "Tackles (Quality)",
+          "type": "int",
+          "banding": "fixed"
         },
         {
           "key": "crosses_per_90",
           "label": "Crosses per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "expected_assists_key_passes",
-          "label": "Expected Assists (key passes)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1540,14 +1552,20 @@
           "banding": "fixed"
         },
         {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "interceptions_per_90",
-          "label": "Interceptions per 90",
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "1v1_defending_quality",
+          "label": "1v1 defending (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1564,26 +1582,8 @@
           "banding": "fixed"
         },
         {
-          "key": "tackles_quality",
-          "label": "Tackles (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "line_breaking_carries_quality",
-          "label": "Line-breaking carries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "1v1_defending_quality",
-          "label": "1v1 defending (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "forward_passes_received_quality",
-          "label": "Forward passes received (Quality)",
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1778,11 +1778,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 27.25,
-            "p60": 27.49,
-            "p70": 27.75,
-            "p80": 28.05,
-            "p90": 28.5
+            "p50": 27.28,
+            "p60": 27.52,
+            "p70": 27.759,
+            "p80": 28.09,
+            "p90": 28.55
           }
         },
         {
@@ -1791,11 +1791,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 5.72,
-            "p60": 6.3,
-            "p70": 6.91,
-            "p80": 7.67,
-            "p90": 9.02
+            "p50": 5.82,
+            "p60": 6.401999999999999,
+            "p70": 7.03,
+            "p80": 7.74,
+            "p90": 9.07
           }
         },
         {
@@ -1804,11 +1804,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 103.25,
-            "p60": 112.83,
-            "p70": 123.97,
-            "p80": 139.04,
-            "p90": 163.91
+            "p50": 104.015,
+            "p60": 113.908,
+            "p70": 125.73999999999995,
+            "p80": 141.592,
+            "p90": 163.90099999999998
           }
         },
         {
@@ -1817,11 +1817,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 502.14,
-            "p60": 525.76,
-            "p70": 562.11,
-            "p80": 599.64,
-            "p90": 656.72
+            "p50": 507.745,
+            "p60": 536.078,
+            "p70": 564.582,
+            "p80": 604.096,
+            "p90": 659.682
           }
         },
         {
@@ -1830,11 +1830,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 115.93,
-            "p60": 117.68,
-            "p70": 119.66,
-            "p80": 121.88,
-            "p90": 124.94
+            "p50": 116.47999999999999,
+            "p60": 118.15,
+            "p70": 120.118,
+            "p80": 122.272,
+            "p90": 125.043
           }
         },
         {
@@ -1843,46 +1843,16 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 10433.41,
-            "p60": 10590.52,
-            "p70": 10769.09,
-            "p80": 10968.58,
-            "p90": 11244.82
+            "p50": 10482.93,
+            "p60": 10633.26,
+            "p70": 10810.282,
+            "p80": 11004.624,
+            "p90": 11254.235
           }
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "second_balls_won_quality",
-          "label": "Second balls won (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "passes_before_progression_quality",
-          "label": "Passes before progression (Quality)",
-          "type": "int",
-          "banding": "fixed"
         },
         {
           "key": "all_passes_per_90",
           "label": "All passes per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "switching_play_quality",
-          "label": "Switching play (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1893,8 +1863,8 @@
           "banding": "fixed"
         },
         {
-          "key": "progressive_short_passing",
-          "label": "Progressive Short Passing",
+          "key": "passes_before_progression_quality",
+          "label": "Passes before progression (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1911,8 +1881,26 @@
           "banding": "fixed"
         },
         {
+          "key": "adjusted_pass_accuracy",
+          "label": "Adjusted Pass Accuracy",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
           "key": "line_breaking_passes_quality",
           "label": "Line breaking passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "switching_play_quality",
+          "label": "Switching play (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -1923,8 +1911,20 @@
           "banding": "fixed"
         },
         {
-          "key": "adjusted_pass_accuracy",
-          "label": "Adjusted Pass Accuracy",
+          "key": "second_balls_won_quality",
+          "label": "Second balls won (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "progressive_short_passing",
+          "label": "Progressive Short Passing",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2119,11 +2119,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 27.58,
-            "p60": 27.84,
-            "p70": 28.15,
-            "p80": 28.46,
-            "p90": 28.98
+            "p50": 27.62,
+            "p60": 27.89,
+            "p70": 28.2,
+            "p80": 28.538,
+            "p90": 29.05
           }
         },
         {
@@ -2132,11 +2132,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 7.25,
-            "p60": 8.06,
-            "p70": 9.073999999999996,
-            "p80": 10.23,
-            "p90": 11.95
+            "p50": 7.54,
+            "p60": 8.365999999999998,
+            "p70": 9.41,
+            "p80": 10.488000000000001,
+            "p90": 12.309000000000001
           }
         },
         {
@@ -2145,11 +2145,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 128.24,
-            "p60": 143.206,
-            "p70": 160.708,
-            "p80": 182.968,
-            "p90": 214.306
+            "p50": 132.785,
+            "p60": 147.984,
+            "p70": 165.477,
+            "p80": 187.28800000000004,
+            "p90": 220.985
           }
         },
         {
@@ -2158,11 +2158,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 567.8,
-            "p60": 605.184,
-            "p70": 643.3159999999999,
-            "p80": 688.9040000000001,
-            "p90": 750.916
+            "p50": 584.335,
+            "p60": 619.284,
+            "p70": 656.793,
+            "p80": 702.8680000000002,
+            "p90": 760.957
           }
         },
         {
@@ -2171,11 +2171,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 116.81,
-            "p60": 118.542,
-            "p70": 120.53,
-            "p80": 122.726,
-            "p90": 125.7
+            "p50": 117.52,
+            "p60": 119.336,
+            "p70": 121.237,
+            "p80": 123.388,
+            "p90": 126.139
           }
         },
         {
@@ -2184,12 +2184,72 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 10512.77,
-            "p60": 10668.894,
-            "p70": 10847.63,
-            "p80": 11045.358,
-            "p90": 11313.062
+            "p50": 10576.615,
+            "p60": 10740.152,
+            "p70": 10910.953,
+            "p80": 11104.658000000001,
+            "p90": 11352.315999999999
           }
+        },
+        {
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "key_passes_quality",
+          "label": "Key passes (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "line_breaking_carries_quality",
+          "label": "Line-breaking carries (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_box_per_90",
+          "label": "Touches in box per 90",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "through_balls_quality",
+          "label": "Through balls (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "goal_difference_added",
+          "label": "Goal difference added",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_goals_shots_open_play",
+          "label": "Expected Goals (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
         },
         {
           "key": "interceptions_quality",
@@ -2204,74 +2264,14 @@
           "banding": "fixed"
         },
         {
-          "key": "expected_assists_key_passes",
-          "label": "Expected Assists (key passes)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "goal_difference_added",
-          "label": "Goal difference added",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "key_passes_quality",
-          "label": "Key passes (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "touches_in_box_per_90",
-          "label": "Touches in box per 90",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "high_regains_quality",
-          "label": "High regains (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "through_balls_quality",
-          "label": "Through balls (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
           "key": "progressive_short_passing",
           "label": "Progressive Short Passing",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "expected_goals_shots_open_play",
-          "label": "Expected Goals (shots - open play)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "line_breaking_carries_quality",
-          "label": "Line-breaking carries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "dribbles_quality",
-          "label": "Dribbles (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "forward_passes_received_quality",
-          "label": "Forward passes received (Quality)",
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2466,11 +2466,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 29.36,
-            "p60": 29.718,
-            "p70": 30.020999999999997,
-            "p80": 30.46,
-            "p90": 30.967
+            "p50": 29.44,
+            "p60": 29.75,
+            "p70": 30.08,
+            "p80": 30.52,
+            "p90": 31.01
           }
         },
         {
@@ -2479,11 +2479,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 12.88,
-            "p60": 13.82,
-            "p70": 14.88,
-            "p80": 16.01,
-            "p90": 17.714
+            "p50": 13.18,
+            "p60": 14.11,
+            "p70": 15.01,
+            "p80": 16.12,
+            "p90": 17.9
           }
         },
         {
@@ -2492,11 +2492,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 234.24,
-            "p60": 257.11,
-            "p70": 275.082,
-            "p80": 302.5,
-            "p90": 335.816
+            "p50": 239.62,
+            "p60": 261.27,
+            "p70": 280.39,
+            "p80": 304.69,
+            "p90": 339.91
           }
         },
         {
@@ -2505,11 +2505,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 644.865,
-            "p60": 673.5459999999999,
-            "p70": 707.064,
-            "p80": 738.5419999999999,
-            "p90": 795.1419999999999
+            "p50": 647.64,
+            "p60": 675.55,
+            "p70": 707.24,
+            "p80": 746.01,
+            "p90": 800.85
           }
         },
         {
@@ -2518,11 +2518,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 112.59,
-            "p60": 114.34,
-            "p70": 116.17,
-            "p80": 118.41,
-            "p90": 121.554
+            "p50": 112.81,
+            "p60": 114.58,
+            "p70": 116.28,
+            "p80": 118.6,
+            "p90": 121.91
           }
         },
         {
@@ -2531,34 +2531,16 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 10133.09,
-            "p60": 10290.268,
-            "p70": 10455.148,
-            "p80": 10657.024000000001,
-            "p90": 10939.389
+            "p50": 10153.1,
+            "p60": 10312.24,
+            "p70": 10465.02,
+            "p80": 10674.02,
+            "p90": 10972.25
           }
         },
         {
-          "key": "touches_in_final_third_quality",
-          "label": "Touches in final third (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "expected_assists_key_passes",
-          "label": "Expected Assists (key passes)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "carries_quality",
-          "label": "Carries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "high_regains_quality",
-          "label": "High regains (Quality)",
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2569,14 +2551,14 @@
           "banding": "fixed"
         },
         {
-          "key": "finishing_shots_open_play",
-          "label": "Finishing (shots - open play)",
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2587,20 +2569,38 @@
           "banding": "fixed"
         },
         {
-          "key": "dribbles_quality",
-          "label": "Dribbles (Quality)",
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "forward_passes_received_quality",
-          "label": "Forward passes received (Quality)",
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "finishing_shots_open_play",
+          "label": "Finishing (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
           "key": "carries_followed_by_pass_quality",
           "label": "Carries followed by pass (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2795,11 +2795,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 29.38,
-            "p60": 29.67,
-            "p70": 29.98,
-            "p80": 30.37,
-            "p90": 30.88
+            "p50": 29.44,
+            "p60": 29.72,
+            "p70": 30.06,
+            "p80": 30.42,
+            "p90": 30.93
           }
         },
         {
@@ -2808,11 +2808,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 12.74,
-            "p60": 13.663999999999998,
-            "p70": 14.677999999999999,
-            "p80": 15.77,
-            "p90": 17.312000000000005
+            "p50": 13.14,
+            "p60": 13.966000000000001,
+            "p70": 14.83,
+            "p80": 15.9,
+            "p90": 17.55
           }
         },
         {
@@ -2821,11 +2821,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 231.14,
-            "p60": 248.94799999999998,
-            "p70": 268.566,
-            "p80": 292.532,
-            "p90": 327.396
+            "p50": 236.73,
+            "p60": 255.618,
+            "p70": 273.56,
+            "p80": 296.112,
+            "p90": 331.52
           }
         },
         {
@@ -2834,11 +2834,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 631.29,
-            "p60": 660.516,
-            "p70": 688.188,
-            "p80": 726.516,
-            "p90": 786.3280000000001
+            "p50": 637.735,
+            "p60": 667.284,
+            "p70": 698.331,
+            "p80": 733.916,
+            "p90": 793.998
           }
         },
         {
@@ -2847,11 +2847,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 111.64,
-            "p60": 113.628,
-            "p70": 115.396,
-            "p80": 117.53,
-            "p90": 120.72200000000001
+            "p50": 112.12,
+            "p60": 114.236,
+            "p70": 116.041,
+            "p80": 118.278,
+            "p90": 120.899
           }
         },
         {
@@ -2860,34 +2860,16 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 10047.84,
-            "p60": 10226.869999999999,
-            "p70": 10385.163999999999,
-            "p80": 10577.904,
-            "p90": 10864.992
+            "p50": 10090.445,
+            "p60": 10281.372,
+            "p70": 10443.438,
+            "p80": 10644.82,
+            "p90": 10880.502
           }
         },
         {
-          "key": "touches_in_final_third_quality",
-          "label": "Touches in final third (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "expected_assists_key_passes",
-          "label": "Expected Assists (key passes)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "carries_quality",
-          "label": "Carries (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "high_regains_quality",
-          "label": "High regains (Quality)",
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2898,14 +2880,14 @@
           "banding": "fixed"
         },
         {
-          "key": "finishing_shots_open_play",
-          "label": "Finishing (shots - open play)",
+          "key": "dribbles_quality",
+          "label": "Dribbles (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
+          "key": "carries_quality",
+          "label": "Carries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -2916,20 +2898,38 @@
           "banding": "fixed"
         },
         {
-          "key": "dribbles_quality",
-          "label": "Dribbles (Quality)",
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
-          "key": "forward_passes_received_quality",
-          "label": "Forward passes received (Quality)",
+          "key": "expected_assists_key_passes",
+          "label": "Expected Assists (key passes)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "finishing_shots_open_play",
+          "label": "Finishing (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_final_third_quality",
+          "label": "Touches in final third (Quality)",
           "type": "int",
           "banding": "fixed"
         },
         {
           "key": "carries_followed_by_pass_quality",
           "label": "Carries followed by pass (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -3124,11 +3124,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 28.99,
-            "p60": 29.291999999999998,
-            "p70": 29.648999999999994,
-            "p80": 30.06,
-            "p90": 30.58
+            "p50": 29.05,
+            "p60": 29.37,
+            "p70": 29.7,
+            "p80": 30.13,
+            "p90": 30.64
           }
         },
         {
@@ -3137,11 +3137,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 11.33,
-            "p60": 12.32,
-            "p70": 13.31,
-            "p80": 14.65,
-            "p90": 16.44
+            "p50": 11.67,
+            "p60": 12.64,
+            "p70": 13.665999999999999,
+            "p80": 15.024000000000001,
+            "p90": 16.832
           }
         },
         {
@@ -3150,11 +3150,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 194.95,
-            "p60": 212.292,
-            "p70": 230.77199999999996,
-            "p80": 257.02599999999995,
-            "p90": 294.346
+            "p50": 200.17,
+            "p60": 219.01399999999998,
+            "p70": 236.96,
+            "p80": 263.496,
+            "p90": 300.88200000000035
           }
         },
         {
@@ -3163,11 +3163,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 573.8399999999999,
-            "p60": 599.994,
-            "p70": 629.607,
-            "p80": 666.0220000000002,
-            "p90": 724.5500000000001
+            "p50": 584.76,
+            "p60": 609.51,
+            "p70": 640.872,
+            "p80": 678.408,
+            "p90": 733.9820000000001
           }
         },
         {
@@ -3176,11 +3176,11 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 108.72,
-            "p60": 110.68,
-            "p70": 112.76,
-            "p80": 114.99,
-            "p90": 118.373
+            "p50": 109.46,
+            "p60": 111.378,
+            "p70": 113.37,
+            "p80": 115.622,
+            "p90": 118.682
           }
         },
         {
@@ -3189,22 +3189,16 @@
           "type": "number",
           "banding": "percentile",
           "percentiles": {
-            "p50": 9784.825,
-            "p60": 9961.083999999999,
-            "p70": 10148.524,
-            "p80": 10349.038,
-            "p90": 10653.286
+            "p50": 9851.62,
+            "p60": 10023.769999999999,
+            "p70": 10203.648,
+            "p80": 10406.374,
+            "p90": 10681.467999999999
           }
         },
         {
-          "key": "expected_goals_combined",
-          "label": "Expected Goals Combined",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "interceptions_quality",
-          "label": "Interceptions (Quality)",
+          "key": "forward_passes_received_quality",
+          "label": "Forward passes received (Quality)",
           "type": "int",
           "banding": "fixed"
         },
@@ -3215,26 +3209,8 @@
           "banding": "fixed"
         },
         {
-          "key": "high_regains_quality",
-          "label": "High regains (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "touches_in_box_quality",
-          "label": "Touches in box (Quality)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "finishing_shots_open_play",
-          "label": "Finishing (shots - open play)",
-          "type": "int",
-          "banding": "fixed"
-        },
-        {
-          "key": "counterpressing_recoveries_quality",
-          "label": "Counterpressing recoveries (Quality)",
+          "key": "expected_goals_combined",
+          "label": "Expected Goals Combined",
           "type": "int",
           "banding": "fixed"
         },
@@ -3257,8 +3233,32 @@
           "banding": "fixed"
         },
         {
-          "key": "forward_passes_received_quality",
-          "label": "Forward passes received (Quality)",
+          "key": "high_regains_quality",
+          "label": "High regains (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "finishing_shots_open_play",
+          "label": "Finishing (shots - open play)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "interceptions_quality",
+          "label": "Interceptions (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "touches_in_box_quality",
+          "label": "Touches in box (Quality)",
+          "type": "int",
+          "banding": "fixed"
+        },
+        {
+          "key": "counterpressing_recoveries_quality",
+          "label": "Counterpressing recoveries (Quality)",
           "type": "int",
           "banding": "fixed"
         },
